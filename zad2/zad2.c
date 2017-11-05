@@ -9,6 +9,20 @@ int main(void) {
   scanf("%d", &b);
   printf("Podaj liczbę c:");
   scanf("%d", &c);
+
+  if(a<=0)
+  {printf("Złe dane\n");
+   return 1;
+  }
+  else if(b<=0)
+  {printf("Złe dane\n");
+   return 1;
+  }
+  if(c<=0)
+  {printf("Złe dane\n");
+   return 1;
+  }
+
   if(a*a+b*b==c*c)
   {
     printf("Te liczby to trójka pitagorejska\n");
@@ -22,6 +36,6 @@ int main(void) {
     printf("Te liczby to trójka pitagorejska\n");
   }
   else
-  printf("Te liczby to nie tórjka pitagorejska\n");
+  printf("Te liczby to nie trójka pitagorejska\n");
   return EXIT_SUCCESS;
 }
