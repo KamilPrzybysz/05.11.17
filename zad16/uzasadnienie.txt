@@ -1,0 +1,3 @@
+Metoda która najlepiej sprawdza się w takich grach to metoda wyszukiwania binarnego. Szukając odpowiedzi dzieli się zawsze zbiór na pół.
+Dzieląc go na pół- czyli na 2 części, o których wiemy że jedna z nich zawiera szukany element, a drugi nie, to wiadomo w którym dalej szukać.
+Opytymalna ilość pytań żeby znaleźć szukaną liczbę to logarytm z liczby elementów w zbiorze przy podstawie z 2. Czyli dla zbioru liczb od 0 do 100 znaleźć wylosowaną liczbę można w 7 "ruchach".
